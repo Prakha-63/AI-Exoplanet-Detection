@@ -48,9 +48,18 @@ Deploy your own free instance in one click via [Streamlit Community Cloud](https
 2. Go to **share.streamlit.io** → **New app** → select this repo → main file `app.py`.
 3. Click **Deploy**.
 
-<!-- Once deployed, add your live link and a screenshot/GIF here: -->
-<!-- ![Demo](demo.gif) -->
+<!-- Once deployed, add your live link here: -->
 <!-- **Live app:** https://your-app.streamlit.app -->
+
+## 📸 Screenshots
+
+**Pipeline — preprocessing, transit parameters & AI classification**
+
+![Pipeline and detection results](screenshot_1.png)
+
+**Attention explainability map & generated scientific report**
+
+![Attention map and JSON report](screenshot_2.png)
 
 ## 📂 Project Structure
 
