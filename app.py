@@ -13,12 +13,12 @@ import pickle
 
 # Set page configuration
 st.set_page_config(
-    page_title="ISRO Hackathon: AI Exoplanet Detection",
+    page_title="AI Exoplanet Detection",
     page_icon="🌌",
     layout="wide"
 )
 
-st.title("🌌 ISRO Hackathon: AI-Exoplanet Detection Portal")
+st.title("🌌 AI-Exoplanet Detection Portal")
 st.write("Upload a TESS or Kepler FITS light curve file to execute the pipeline, detect planets, and generate a scientific report.")
 
 # Custom Attention Layer (same as notebook for compatibility)
