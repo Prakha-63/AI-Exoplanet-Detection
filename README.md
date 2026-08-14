@@ -59,7 +59,7 @@ Deploy your own free instance in one click via [Streamlit Community Cloud](https
 
 **Attention explainability map & generated scientific report**
 
-![Attention map and JSON report](screenshot_2.png)
+![Attention map and JSON report](screenshot_2.png) 
 
 ## 📂 Project Structure
 
