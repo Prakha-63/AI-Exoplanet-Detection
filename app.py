@@ -228,12 +228,12 @@ if uploaded_file is not None:
         st.subheader("📄 Generated Scientific Report (JSON)")
         report = {
             "target_id": str(getattr(lc, 'targetid', 'Unknown') or getattr(lc, 'label', 'Unknown')),
-            "planet_detected": planet_detected,
-            "confidence": round(avg_confidence, 1),
-            "transit_depth": round(transit_depth * 100, 3),
-            "transit_duration_hours": round(transit_duration * 24, 2),
-            "estimated_period_days": round(estimated_period, 2),
-            "signal_to_noise_ratio": round(signal_to_noise_ratio, 2)
+            "planet_detected": bool(planet_detected),
+            "confidence": round(float(avg_confidence), 1),
+            "transit_depth": round(float(transit_depth) * 100, 3),
+            "transit_duration_hours": round(float(transit_duration) * 24, 2),
+            "estimated_period_days": round(float(estimated_period), 2),
+            "signal_to_noise_ratio": round(float(signal_to_noise_ratio), 2)
         }
         st.json(report)
         st.download_button(
