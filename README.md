@@ -48,6 +48,7 @@ Deploy your own free instance in one click via [Streamlit Community Cloud](https
 2. Go to **share.streamlit.io** → **New app** → select this repo → main file `app.py`.
 3. Click **Deploy**.
 
+https://ai-exoplanet-detection-jgfxmpb75gya9my8rew9oq.streamlit.app/
 <!-- Once deployed, add your live link here: -->
 <!-- **Live app:** https://your-app.streamlit.app -->
 
